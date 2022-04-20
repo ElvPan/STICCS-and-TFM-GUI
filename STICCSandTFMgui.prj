@@ -1,0 +1,163 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="966158364" file="C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\GUI\STICCS and TFM GUI\STICCSandTFMgui.prj" location="C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\GUI\STICCS and TFM GUI" name="STICCSandTFMgui" target="target.mlapps" target-name="Package App">
+    <param.appname>STICCSandTFMgui</param.appname>
+    <param.authnamewatermark>Elvis Pandzic</param.authnamewatermark>
+    <param.email>e.pandzic@unsw.edu.au</param.email>
+    <param.company>Katharina Gaus Light Microscopy Facility</param.company>
+    <param.icon>${PROJECT_ROOT}\STICCSandTFMgui_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\STICCSandTFMgui_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\STICCSandTFMgui_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\STICCSandTFMgui_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>This 3 part GUI allows user to apply STICCS and TFM analysis as well as combine the outputs into common maps.</param.summary>
+    <param.description>Tab 1 of this GUI allows for 2 color 2D Spatio-Temporal Cross-Correlation Spectroscopy  (STICCS) analysis to map sub-cellular flow of proteins and organelles. Tab 2 allows for measurment of gel embdded nano-particles as cell migrates and adheres, which can be used via Traction Force Microscopy (TFM). Tab 3 allows the results from STICCS and TFM to be displayed and exported as well as overlayed for combined view.</param.description>
+    <param.screenshot>C:\Users\BMIF\AppData\Local\Temp\tp81eab152_6b9c_4c10_8f38_a647509edd67.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>a4f5a21b-b58e-4baa-8f8e-30b4945d34e2</param.guid>
+    <unset>
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\STICCSandTFMgui.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\Aria final Scripts\Supporting_Scripts\bfmatlab\bfCheckJavaMemory.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\Aria final Scripts\Supporting_Scripts\bfmatlab\bfCheckJavaPath.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\Aria final Scripts\Supporting_Scripts\bfmatlab\bfGetFileExtensions.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\Aria final Scripts\Supporting_Scripts\bfmatlab\bfGetPlane.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\Aria final Scripts\Supporting_Scripts\bfmatlab\bfGetReader.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\Aria final Scripts\Supporting_Scripts\bfmatlab\bfInitLogging.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\Aria final Scripts\Supporting_Scripts\bfmatlab\bfopen.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\Aria final Scripts\Supporting_Scripts\bfmatlab\createMinimalOMEXMLMetadata.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\Aria final Scripts\Supporting_Scripts\bfmatlab\is_octave.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\bpass.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\butterIIR.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\DiffusionDisplacementKineticsMapping\circle.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\feature2D.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\fracshift.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\gauss2d.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\gauss2dimmobile.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\gauss2dwxy.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\gaussfit.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\GetOMEData.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\GUI\readOMEAlternativeGUI.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\localmax.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\localmax2.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\moving_average.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\nanmax.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\nanmean.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\nanmedian.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\nanmin.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\nanstd.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\nansum.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\normalisation.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\pleas.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\rd_img16.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\readOMEAlternative.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\rsqd.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\smoothSeries.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\sticcs_byfft.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\STICCSpackage\Align2ColorDataSetsGUI.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\STICCSpackage\distance.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\STICCSpackage\immfilterGUI.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\STICCSpackage\nearestNeighbour.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\STICCSpackage\unwrapCustom.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\STICCSpackage\vectorOutlier.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\stics_byfft.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\TFM\BlackColormaps.mat</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\TFM\contrast.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\TFM\corr_mask.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\TFM\decalage.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\TFM\feature2DTFM.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\TFM\fieldof.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\TFM\luberize.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\TFM\make_movies.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\TFM\ReadFileNames.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\TFM\RedBlueColormaps.mat</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\TFM\registration_ssinterp.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\TFM\registration_ssinterp_pattern.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\TFM\regularized.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\TFM\track_film_iteratif_2cells.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\TFM\trackmem.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\TFM\unq.m</file>
+      <file>C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\thetarr.m</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\STICCS</file>
+      <file>${PROJECT_ROOT}\supporting scripts</file>
+      <file>${PROJECT_ROOT}\TFM</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\GUI" name="STICCS and TFM GUI" optional="false">C:\Users\BMIF\Dropbox\codes\ElvisBackup\codes2011to2016\simul8r\simul8r\GUI\STICCS and TFM GUI</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2022a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
